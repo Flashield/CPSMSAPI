@@ -1,0 +1,10 @@
+时间：170330190552036消息：Excepion in method named AddSmsMtLog Exception:
+java.lang.NullPointerException
+	at com.ntyd.msg.DALHelper.AddSmsMtLog(DALHelper.java:122)
+	at com.ntyd.msg.MainProcess.SendSMS(MainProcess.java:95)
+	at com.ntyd.msg.MainProcess.main(MainProcess.java:34)
+时间：170331203622230消息：Excepion in method named AddSmsMtLog Exception:
+java.lang.NullPointerException
+	at com.ntyd.msg.DALHelper.AddSmsMtLog(DALHelper.java:122)
+	at com.ntyd.msg.MainProcess.SendSMS(MainProcess.java:95)
+	at com.ntyd.msg.MainProcess.main(MainProcess.java:34)

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ipf>
+	<header>
+		<!-- 回包标记，和请求包对应 -->
+		<transactionId>10011001</transactionId>
+		<!-- 返回包类型 -->
+		<packageType>SMSMOResponse</packageType>
+	</header>
+	<body>
+		<!-- 接收结果，等于0成功；小于 0失败 -->
+		<result>0</result>
+	</body>
+</ipf>

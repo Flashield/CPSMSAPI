@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ipf>
+	<header>
+		<!-- 请求标记，唯一确定本次请求 -->
+		<transactionId>10011001</transactionId>
+		<!-- 用户名，鉴权使用，由平台分配 -->
+		<user>test</user>
+		<!-- 密码，鉴权使用，由平台分配，MD5加密 -->
+		<passwd>123456</passwd>
+		<!-- 包体类型 -->
+		<packageType>SMSMTRequest</packageType>
+	</header>
+	<body>
+		<!-- 活动代码 -->
+		<actId>SMS2MMS</actId>
+		<!-- 特服号，由平台分配 -->
+		<spCode>0123456789</spCode>
+		<!-- 计费手机号码 -->
+		<feeTerminalId>13813388666</feeTerminalId>
+		<!-- 接收方手机号码 -->
+		<destTerminalId>13813388666</destTerminalId>
+		<!-- 业务代码，由平台分配 -->
+		<serviceId>12345678</serviceId>
+		<!-- 计费类型 ：1、免费；2、点播；3、包月，由平台分配-->
+		<feeType>1</feeType>
+		<!-- 计费代码，单位：分，由平台分配 -->
+		<feeCode>0</feeCode>
+		<!-- 是否需要状态报告：0、不需要，1、需要 -->
+		<needReport>1</needReport>
+		<!-- 信息格式，普通文本填15，wap push填2 -->
+		<msgFormat>15</msgFormat>
+		<!-- 短信内容 -->
+		<msgContent>这是一个测试包</msgContent>
+		<!-- Linkid，点播类相应于上行 -->
+		<linkid>0123456789</linkid>
+	</body>
+</ipf>

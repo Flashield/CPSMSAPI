@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<!-- 服务端信息由平台运营商提供 -->
+	<server>
+		<!-- 服务端IP地址 -->
+		<url>http://211.139.122.2:50001</url>
+		<!-- 用户名 -->
+		<user>1047</user>
+		<!-- 密码 -->
+		<passwd>123456</passwd>
+	</server>
+	<!-- 客户端信息由CP自己定义 -->
+	<client>
+		<!-- 客户端侦听端口，此信息和IP构成平台请求CP的URL -->
+		<port>8081</port>
+		<!-- 发送请求时等待响应超时时间，单位：毫秒 -->
+		<timeOut>10000</timeOut>
+	</client>
+	<!-- 配置xml模板文件路径 -->
+	<template>
+		<!-- 短信请求包模板 -->
+		<smsReqXml>./xml/smsreq.xml</smsReqXml>
+		<!-- 彩信请求包模板 -->
+		<mmsReqXml>./xml/mmsreq.xml</mmsReqXml>
+		<!-- 回应包模板 -->
+		<responseXml>./xml/resp.xml</responseXml>
+	</template>
+	<!-- 定义系统信息 -->
+	<system>
+		<!-- api日志路径 -->
+		<logDir>./log</logDir>
+		<!-- 上行彩信压缩包存放路径 -->
+		<zipDir>./zip</zipDir>
+		<!-- 是否开启log功能，YES－开启，NO－关闭 -->
+		<isLog>YES</isLog>
+		<!-- 是否开启debug功能，YES－开启，NO－关闭 -->
+		<isDebug>YES</isDebug>
+	</system>
+	<!-- 数据库连接信息--><DBConn>
+	<!--数据库连接url--><url>jdbc:oracle:thin:@10.35.8.11:1521:NTDB02</url><!--数据库用户名-->
+	<user>NTSMS</user><!--数据库密码-->
+	<passwd>smsinterface</passwd>
+</DBConn></config>

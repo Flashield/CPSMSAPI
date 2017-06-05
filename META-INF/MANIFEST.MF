@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Create-By: ZhuangBin.NTYD
+Main-Class: com.ntyd.msg.MainProcess
+Class-Path: lib/jdom.jar lib/ojdbc14.jar
